@@ -2,9 +2,10 @@ import AboutImg from '../assets/about.png';
 
 export default function About () {
     const config  = {
-        line1: 'Hi, My name is Amrenther. I am a Full stack web developer and wordpress developer. I built beautiful Websites with React.js , Tailwind CSS and Next.js. ',
-        line2: 'I am proficient in Frontend skills like React.js,React Router,React Hooks, Redux, Redux Tool Kit, Axios,RTK Query, Tailwind CSS, NextAuth, Zod, CSS3 and many more.',
-        line3: 'In backend I know Node.js,Prisma,MySQL,PostgreSQL'
+        line1: "Hi,I'm Amrenther",
+        line2: "I am a Full-stack web developer and WordPress developer. I build beautiful Websites with React.js, Tailwind CSS and Next.js. I also have experience in building websites with WordPress.",
+        line3: "I am proficient in Frontend skills like React.js, React Router,React Hooks, Redux, Redux Tool Kit, Axios, RTK Query, Tailwind CSS, NextAuth, Zod, CSS3 and many more.",
+        line4: "In backend I know Node.js,Prisma,MySQL,PostgreSQL"
     }
 
     return <section className='flex flex-col md:flex-row bg-secondary px-5' id='about'>
@@ -17,6 +18,7 @@ export default function About () {
                 <p className='pb-5'>{config.line1}</p>
                 <p className='pb-5'>{config.line2}</p>
                 <p className='pb-5'>{config.line3}</p>
+                <p className='pb-5'>{config.line4}</p>
             </div>
         </div>
     </section>

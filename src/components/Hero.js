@@ -3,7 +3,7 @@ import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 
 export default function Hero() {
     const config  = {
-        subtitle: 'nextJS full stack developer and wordpress developer',
+        subtitle: 'NextJS Full-stack developer and WordPress developer',
         social: {
             linkedin: 'https://www.linkedin.com/in/amrenther/',
             github: 'https://github.com/Amrenther'
