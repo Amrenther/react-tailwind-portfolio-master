@@ -2,12 +2,12 @@ import ResumeImg from '../assets/resume.jpg';
 
 export default function Resume () {
     const config = {
-        link: ''
+        link: 'https://docs.google.com/document/d/1oALpya3E3XFFpm_4mOahbjEJ9UHUqmE0/edit?usp=sharing&ouid=112615073711946084483&rtpof=true&sd=true'
     }
 
     return <section id='resume' className='flex flex-col md:flex-row bg-secondary px-5'>
         <div className='py-5 md:w-1/2 flex justify-center md:justify-end'>
-            <img className='w-[300px] rounded-lg' src={ResumeImg} alt="Resume" />
+            <img className='w-[300px]' src={ResumeImg} alt='resume'/>
         </div>
         <div className='md:w-1/2 flex justify-center'>
             <div className='flex flex-col justify-center text-white'>
