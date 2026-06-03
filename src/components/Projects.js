@@ -19,7 +19,7 @@ export default function Projects() {
             {
                 image: webimg3,
                 description: 'FinTrack — Personal Finance Assistant|Next.js, TypeScript, PostgreSQL, Prisma',
-                link: 'https://github.com/jvlcode/blog'
+                link: 'https://v0-personal-finance-assistant-omega.vercel.app/'
             }
         ]
     }
@@ -39,9 +39,8 @@ export default function Projects() {
                         <div className='project-desc'>
                             <p className='text-center px-5 py-5'>{project.description}</p>
                             <div className='flex justify-center'>
-                                <a className='btn' target='_blank' href={project.link}>
-                                    View Project
-                                </a>
+                                <a className='btn'target='_blank'rel='noopener noreferrer'href={project.link}
+                                >View Project</a>
                             </div>
                         </div>
                     </div>
