@@ -11,8 +11,8 @@ export default function Contact () {
            
             <h1 className='text-4xl border-b-4  border-secondary mb-5 w-[140px] font-bold'>Contact</h1>
             <p className='pb-5'>If you want to discuss more in detail, please contact me</p>
-            <p className='py-2'><span className='font-bold'>Email :</span> {config.email}</p>
-            <p className='py-2'><span className='font-bold'>Phone :</span> {config.phone}</p>
+            <p className='py-2'><span className='font-bold'>Email :</span> <a href={`mailto:${config.email}`} className='text-black text-lg hover:underline'>{config.email}</a></p>
+            <p className='py-2'><span className='font-bold'>Phone :</span> <a href={`tel:${config.phone}`} className='text-black text-lg hover:underline'>{config.phone}</a></p>
         </div>
     </section>
 }
